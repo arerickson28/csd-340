@@ -6,12 +6,13 @@
 
 h1, h2, h3, h4 {
     background-color: teal;
-    border: 1px solid #D6A800;
-    padding: 1px;
+    border: 3px solid orange;
+    padding: 10px;
+    color: whitesmoke;
 }
 
 a {
-    color: #D6A800;
+    color: orange;
 }
 
 a:hover {
