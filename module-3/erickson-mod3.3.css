@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+div {
+    width: 45%;
+    padding: 15px;
+    float: left;
+}
+
+ol {
+    border: 1px solid red;
+    padding: 10px;
+    list-style-position: inside;
+    border-radius: 15px;
+}
+
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* id rules overide basic tag rules */
+#bigDiv {
+    width: 100%;
+    margin-top: 60px;
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
