@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+#back {
+    width: 100%;
+    margin-top: 60px;
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+img {
+   width: 250px;
+}
+
+h3 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    text-align: center;
+}
+
+h1, h3, figcaption {
+    color: rgb(0, 128, 128);
+}
