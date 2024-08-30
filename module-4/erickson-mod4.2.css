@@ -17,8 +17,13 @@ h1 {
     column-gap: 10px;
 }
 
+#image-gallery div {
+    border: solid 2px rgb(0, 128, 128);
+}
+
 img {
    width: 250px;
+   height: 350px;
 }
 
 h3 {
@@ -33,6 +38,7 @@ figcaption {
     font-style: italic;
     font-size: .75em;
     text-align: center;
+    padding: 10px;
 }
 
 h1, h3, figcaption {
