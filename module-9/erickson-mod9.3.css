@@ -1,0 +1,82 @@
+html body {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+address {
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:visited {
+    color: pink;
+    background-color: lightblue;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 25px;
+}
+
+.awesome {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(53, 95, 220);
+}
+
+.terrific {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(213, 150, 41);
+}
+
+.magnificent {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(53, 197, 55);
+}
+
+.wonderful {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(197, 53, 147);
+}
