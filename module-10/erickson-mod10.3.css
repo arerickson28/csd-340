@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    border: solid black 4px;
+    width: 500px;
+    height: 350px;
+}
