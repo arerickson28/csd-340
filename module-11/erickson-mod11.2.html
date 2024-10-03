@@ -1,3 +1,9 @@
+<!-- 
+Austen Rhyce Erickson
+10/2/24
+HTML/CSS
+Assignment 11.2 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,27 +14,28 @@
 </head>
 <body>
     <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <h4>Let's make a TO-Do list!</h4>
+    <ul>
+        <li>Type a "todo" item and click "Add" to add it to your todo list</li>
+        <li>At any time you can click "Display" to view the current contents of your list</li>
+        <li>Clicking the "Delete Last Entry" button will remove your last item from your list</li>
+    </ul>
+    <hr>
     <div id="mainDiv">
         <div id="buttonDiv">
             <div id="addDiv">
                 <button id="addButton">Add</button>
                 <input id="textbox" placeholder="type something here">
             </div>
-        
             <button id="deleteLastButton">Delete Last Entry</button>
             <button id="displayButton">Display</button>
             <button id="closeDisplay" class="hidden">Close Display</button>
-            
         </div>
-        
-    
+        <hr>
         <div id="displayDiv" class="hidden teal">
             <ul id="ul"></ul>
         </div>
-
     </div>
-   
-    
     <script src="./erickson-mod11.2.js"></script>
 </body>
 </html>

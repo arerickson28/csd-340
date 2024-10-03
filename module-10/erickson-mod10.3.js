@@ -4,7 +4,6 @@ let noLightningRoadString = "./images/roadLightning.jpg"
 let summerTreeString = "./images/treeSummer.jpg"
 let autumnTreeString = "./images/treeAutumn.jpg"
 
-
 let roadImage = document.getElementById("road")
 roadImage.setAttribute("src", lightingRoadString)
 
