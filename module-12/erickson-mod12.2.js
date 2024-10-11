@@ -35,3 +35,5 @@ function fillBottomToTop() {
 
 topToBottomBtn.addEventListener("click", fillTopToBottom)
 bottomToTopBtn.addEventListener("click", fillBottomToTop)
+
+fillTopToBottom()
